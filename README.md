@@ -2,7 +2,7 @@
  
 This is a custom memory manager designed for real-time C++ applications where memory allocation speed is critical. By providing a low-level interface that directly interacts with the underlying Win32 heap functions, this memory manager bypasses the overhead associated with standard library memory allocation routines, leading to significant performance improvements.
 
-## Key Features:
+**Key Features**:
 
 - Leverages Win32 heap functions for heap creation and memory allocation.
 - Manages all created heaps and provides automatic destruction with memory deallocation.
