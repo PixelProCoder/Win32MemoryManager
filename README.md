@@ -8,4 +8,4 @@ This is a custom memory manager designed for real-time C++ applications where me
 - Manages all created heaps and provides automatic destruction with memory deallocation.
 - Offers two heap types:
   - **Normal Heap:** Grows dynamically and allocates blocks of various sizes with user-specified alignment.
-  - **Fixed Heap:** Pre-divided into fixed-size blocks, ideal for allocating constant-size objects like arrays. Offers allocation fail-safes and guarantees 4-byte alignment.
+  - **Fixed Heap:** Pre-divided into fixed-size blocks, ideal for allocating constant-size structures like arrays. Offers allocation fail-safes and guarantees 4-byte alignment.
